@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-wrapper{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.80);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: #004b23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    width: 100%;
+    position: fixed;
+}
+
+.header-wrapper h1{
+    font-size: 22px;
+    font-family: "Sofia";
+}
+
+
+.presentation-wrapper{
+    padding-top: 170px;
+    padding-bottom: 70px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url("wrapper-image.png");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.presentation-wrapper h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.presentation-wrapper h2{
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 18px
+}
+
+.introduction-wrapper{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 30px;
+}
+
+.introduction-wrapper h2, .chi-siamo-wrapper h2{
+    color: #012c15;
+}
+
+.introduction-wrapper p, .chi-siamo-wrapper p{
+    color: #044e27;
+}
+
+.chi-siamo-wrapper{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    background-color: #e9f5db;
+}
+
+.chi-siamo-wrapper img{
+    width: 85%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.garden-presentation-wrapper{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.garden-presentation-img{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.garden-presentation-img img{
+    height: 200px;
+}
+
+button{
+    width: 60%;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.piedipagina img{
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+}
